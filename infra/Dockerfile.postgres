@@ -1,0 +1,8 @@
+# Simplified Dockerfile for PostgreSQL on Render
+FROM postgres:15-alpine
+
+# Copy initialization script
+COPY init.sql /docker-entrypoint-initdb.d/
+
+ENV POSTGRES_USER=lifeafterai
+ENV POSTGRES_DB=lifeafterai

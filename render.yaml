@@ -1,0 +1,70 @@
+# Render.com Blueprint
+# Deploy the entire stack with one click
+
+services:
+  # PostgreSQL Database
+  - type: pserv
+    name: lifeafterai-db
+    env: docker
+    plan: free
+    dockerfilePath: ./infra/Dockerfile.postgres
+    envVars:
+      - key: POSTGRES_USER
+        value: lifeafterai
+      - key: POSTGRES_PASSWORD
+        generateValue: true
+      - key: POSTGRES_DB
+        value: lifeafterai
+    disk:
+      name: postgres-data
+      mountPath: /var/lib/postgresql/data
+      sizeGB: 1
+
+  # FastAPI Backend
+  - type: web
+    name: lifeafterai-api
+    env: docker
+    plan: free
+    dockerfilePath: ./app/backend/Dockerfile
+    dockerContext: ./app/backend
+    envVars:
+      - key: DATABASE_URL
+        fromDatabase:
+          name: lifeafterai-db
+          property: connectionString
+      - key: SECRET_KEY
+        generateValue: true
+      - key: FRONTEND_URL
+        value: https://lifeafterai.onrender.com
+      - key: BACKEND_URL
+        fromService:
+          type: web
+          name: lifeafterai-api
+          property: host
+      - key: ENVIRONMENT
+        value: production
+      - key: CORS_ORIGINS
+        value: https://lifeafterai.onrender.com,https://lifeafterai-api.onrender.com
+      - key: OPENAI_API_KEY
+        sync: false
+      - key: STRIPE_SECRET_KEY
+        sync: false
+      - key: STRIPE_PUBLISHABLE_KEY
+        sync: false
+      - key: POSTHOG_API_KEY
+        sync: false
+    healthCheckPath: /api/health
+
+  # React Frontend
+  - type: web
+    name: lifeafterai
+    env: docker
+    plan: free
+    dockerfilePath: ./app/frontend/Dockerfile
+    dockerContext: ./app/frontend
+    envVars:
+      - key: VITE_API_URL
+        fromService:
+          type: web
+          name: lifeafterai-api
+          property: host

@@ -1,0 +1,43 @@
+# Multi-stage Dockerfile for Fly.io deployment
+# Combines backend and frontend into one container
+
+FROM node:20-alpine AS frontend-builder
+
+WORKDIR /app
+COPY app/frontend/package*.json ./
+RUN npm ci
+COPY app/frontend/ ./
+RUN npm run build
+
+FROM python:3.11-slim
+
+WORKDIR /app
+
+# Install system dependencies
+RUN apt-get update && apt-get install -y \
+    gcc \
+    postgresql-client \
+    nginx \
+    && rm -rf /var/lib/apt/lists/*
+
+# Install Python dependencies
+COPY app/backend/requirements.txt ./
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Copy backend code
+COPY app/backend/ ./app/backend/
+COPY data/ ./data/
+
+# Copy frontend build from builder
+COPY --from=frontend-builder /app/dist /app/dist
+
+# Copy nginx config
+COPY infra/nginx-fly.conf /etc/nginx/sites-available/default
+
+EXPOSE 8000
+
+# Start script
+COPY infra/start-fly.sh /start.sh
+RUN chmod +x /start.sh
+
+CMD ["/start.sh"]
