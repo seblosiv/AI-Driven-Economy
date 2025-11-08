@@ -1,0 +1,170 @@
+soc_code,title,sector,median_salary,baseline_risk,ai_velocity,remote_feasibility,creativity_weight,social_weight,physical_weight,description
+11-1011,Chief Executives,Management,185950,0.15,0.40,0.70,0.65,0.80,0.05,Strategic leadership and decision-making
+11-1021,General and Operations Managers,Management,97970,0.25,0.45,0.65,0.55,0.70,0.10,Plan and oversee daily operations
+11-2021,Marketing Managers,Management,135900,0.35,0.75,0.85,0.70,0.65,0.05,Develop marketing strategies
+11-3031,Financial Managers,Management,134180,0.40,0.70,0.90,0.45,0.60,0.05,Financial planning and analysis
+11-9111,Medical and Health Services Managers,Healthcare,104280,0.20,0.50,0.60,0.50,0.75,0.15,Coordinate healthcare delivery
+13-1051,Cost Estimators,Business,65250,0.65,0.75,0.90,0.35,0.45,0.05,Estimate project costs
+13-1111,Management Analysts,Business,93000,0.55,0.70,0.85,0.60,0.65,0.05,Improve organizational efficiency
+13-1161,Market Research Analysts,Business,63790,0.60,0.80,0.95,0.55,0.50,0.05,Study market conditions
+13-2011,Accountants and Auditors,Finance,77250,0.70,0.75,0.95,0.30,0.45,0.05,Prepare and examine financial records
+13-2051,Financial Analysts,Finance,81410,0.65,0.80,0.95,0.45,0.50,0.05,Assess financial performance
+13-2052,Personal Financial Advisors,Finance,94170,0.35,0.60,0.75,0.50,0.85,0.05,Provide financial guidance
+13-2072,Loan Officers,Finance,63380,0.60,0.70,0.80,0.30,0.70,0.05,Evaluate loan applications
+15-1211,Computer Systems Analysts,Technology,99270,0.55,0.85,0.95,0.60,0.55,0.05,Analyze IT systems
+15-1212,Information Security Analysts,Technology,102600,0.40,0.80,0.95,0.65,0.55,0.05,Protect computer systems
+15-1244,Network Architects,Technology,120650,0.50,0.75,0.90,0.70,0.50,0.05,Design network infrastructure
+15-1251,Computer Programmers,Technology,93000,0.70,0.90,0.98,0.55,0.35,0.02,Write and test code
+15-1252,Software Developers,Technology,110140,0.50,0.85,0.98,0.75,0.50,0.02,Develop software applications
+15-1256,Software Quality Assurance,Technology,98220,0.75,0.85,0.95,0.45,0.45,0.05,Test software for defects
+15-1299,Computer Occupations,Technology,93760,0.60,0.85,0.95,0.60,0.50,0.05,Various IT roles
+17-2051,Civil Engineers,Engineering,88050,0.40,0.60,0.70,0.65,0.60,0.20,Design infrastructure projects
+17-2061,Computer Hardware Engineers,Engineering,128170,0.45,0.75,0.80,0.70,0.55,0.15,Design computer systems
+17-2071,Electrical Engineers,Engineering,101780,0.50,0.70,0.75,0.65,0.55,0.20,Design electrical systems
+17-2112,Industrial Engineers,Engineering,95300,0.55,0.70,0.75,0.60,0.60,0.15,Optimize production processes
+17-2141,Mechanical Engineers,Engineering,95300,0.45,0.65,0.70,0.70,0.55,0.25,Design mechanical systems
+19-1042,Medical Scientists,Science,95310,0.30,0.60,0.70,0.75,0.65,0.30,Conduct medical research
+19-2021,Atmospheric Scientists,Science,99740,0.35,0.65,0.80,0.70,0.60,0.20,Study weather and climate
+19-3011,Economists,Science,105630,0.45,0.70,0.90,0.70,0.55,0.05,Analyze economic issues
+19-3031,Clinical Psychologists,Healthcare,81040,0.20,0.45,0.60,0.70,0.90,0.10,Diagnose mental health conditions
+19-3051,Urban and Regional Planners,Government,78500,0.50,0.65,0.75,0.70,0.70,0.15,Develop land use plans
+21-1011,Substance Abuse Counselors,Healthcare,48520,0.15,0.30,0.50,0.60,0.95,0.20,Help people overcome addiction
+21-1012,Educational Counselors,Education,60510,0.20,0.40,0.60,0.65,0.90,0.15,Guide students and career planning
+21-1014,Mental Health Counselors,Healthcare,49130,0.15,0.35,0.55,0.65,0.95,0.15,Provide mental health support
+21-1015,Rehabilitation Counselors,Healthcare,38560,0.20,0.40,0.55,0.60,0.90,0.25,Help people with disabilities
+23-1011,Lawyers,Legal,126930,0.40,0.65,0.80,0.70,0.75,0.05,Represent clients in legal matters
+23-1021,Administrative Law Judges,Legal,122990,0.25,0.50,0.60,0.70,0.80,0.10,Preside over hearings
+23-2011,Paralegals,Legal,56230,0.70,0.75,0.90,0.40,0.55,0.05,Assist lawyers with research
+25-1011,Business Teachers,Education,79640,0.30,0.50,0.70,0.65,0.85,0.10,Teach business courses
+25-1021,Computer Science Teachers,Education,87680,0.25,0.55,0.75,0.70,0.85,0.05,Teach computer science
+25-1072,Nursing Instructors,Education,77440,0.20,0.45,0.65,0.65,0.90,0.20,Train nursing students
+25-2021,Elementary School Teachers,Education,60660,0.30,0.50,0.60,0.75,0.95,0.20,Teach elementary students
+25-2022,Middle School Teachers,Education,60810,0.30,0.50,0.60,0.75,0.95,0.20,Teach middle school students
+25-2031,Secondary School Teachers,Education,62870,0.30,0.50,0.65,0.75,0.90,0.15,Teach high school students
+25-3021,Self-Enrichment Teachers,Education,44270,0.35,0.45,0.70,0.80,0.90,0.25,Teach hobby or vocational courses
+27-1011,Art Directors,Creative,100890,0.30,0.60,0.85,0.95,0.70,0.05,Design visual communication
+27-1012,Craft Artists,Creative,38650,0.25,0.40,0.60,0.95,0.50,0.70,Create handmade objects
+27-1013,Fine Artists,Creative,52340,0.20,0.35,0.55,0.98,0.45,0.60,Create original artwork
+27-1014,Multimedia Artists,Creative,78790,0.50,0.75,0.90,0.90,0.55,0.05,Create visual effects
+27-1024,Graphic Designers,Creative,53380,0.60,0.80,0.95,0.85,0.50,0.05,Design visual materials
+27-1025,Interior Designers,Creative,60340,0.40,0.55,0.70,0.90,0.80,0.30,Design interior spaces
+27-2012,Producers and Directors,Media,76400,0.25,0.50,0.70,0.95,0.85,0.20,Oversee media production
+27-2042,Musicians and Singers,Arts,30.39,0.20,0.40,0.60,0.98,0.75,0.50,Perform music
+27-3031,Public Relations Specialists,Marketing,62800,0.45,0.70,0.90,0.75,0.80,0.05,Manage public image
+27-3041,Editors,Media,63400,0.55,0.75,0.95,0.80,0.60,0.05,Review and revise content
+27-3043,Writers and Authors,Creative,69510,0.45,0.70,0.95,0.95,0.55,0.05,Create written content
+27-4011,Audio Engineers,Media,53520,0.50,0.70,0.80,0.75,0.60,0.30,Record and mix audio
+27-4021,Photographers,Creative,38950,0.45,0.65,0.70,0.90,0.70,0.40,Capture images
+27-4031,Camera Operators,Media,60360,0.50,0.65,0.65,0.80,0.65,0.45,Operate video cameras
+29-1021,Dentists,Healthcare,159200,0.25,0.50,0.40,0.70,0.85,0.60,Diagnose and treat dental issues
+29-1051,Pharmacists,Healthcare,128710,0.55,0.70,0.75,0.40,0.75,0.25,Dispense medications
+29-1060,Physicians,Healthcare,208000,0.15,0.45,0.50,0.75,0.95,0.50,Diagnose and treat illnesses
+29-1071,Physician Assistants,Healthcare,121530,0.20,0.50,0.55,0.65,0.90,0.45,Practice medicine under supervision
+29-1123,Physical Therapists,Healthcare,91010,0.25,0.50,0.45,0.70,0.90,0.65,Help patients recover mobility
+29-1141,Registered Nurses,Healthcare,77600,0.30,0.55,0.50,0.65,0.90,0.55,Provide patient care
+29-1151,Nurse Anesthetists,Healthcare,195610,0.25,0.55,0.45,0.70,0.85,0.60,Administer anesthesia
+29-1171,Nurse Practitioners,Healthcare,117670,0.20,0.50,0.55,0.70,0.90,0.50,Advanced nursing practice
+29-2061,Licensed Practical Nurses,Healthcare,48820,0.40,0.60,0.50,0.50,0.85,0.60,Basic nursing care
+31-1011,Home Health Aides,Healthcare,29430,0.35,0.55,0.30,0.50,0.90,0.75,Assist with daily living
+31-9091,Dental Assistants,Healthcare,41180,0.50,0.65,0.45,0.45,0.80,0.60,Assist dentists
+31-9092,Medical Assistants,Healthcare,37190,0.55,0.70,0.55,0.40,0.80,0.55,Perform clinical tasks
+31-9093,Medical Equipment Preparers,Healthcare,41480,0.60,0.65,0.50,0.35,0.60,0.70,Prepare medical equipment
+31-9094,Medical Transcriptionists,Healthcare,30100,0.85,0.85,0.98,0.20,0.30,0.02,Transcribe medical records
+31-9096,Veterinary Assistants,Healthcare,29780,0.40,0.55,0.35,0.50,0.75,0.75,Assist veterinarians
+33-1011,Correctional Officers,Public Safety,47410,0.30,0.40,0.25,0.35,0.85,0.75,Oversee inmates
+33-1012,First-Line Police Supervisors,Public Safety,91090,0.25,0.40,0.30,0.50,0.90,0.70,Supervise police officers
+33-1021,Fire Supervisors,Public Safety,77150,0.20,0.35,0.25,0.55,0.90,0.80,Supervise firefighters
+33-2011,Firefighters,Public Safety,52500,0.25,0.40,0.20,0.60,0.90,0.85,Respond to fires
+33-3012,Police Officers,Public Safety,65170,0.30,0.45,0.30,0.55,0.90,0.75,Enforce laws and protect public
+33-3051,Police Dispatchers,Public Safety,45760,0.60,0.70,0.85,0.35,0.75,0.10,Coordinate emergency response
+35-1011,Chefs and Head Cooks,Hospitality,53380,0.35,0.50,0.30,0.90,0.75,0.80,Direct food preparation
+35-2014,Cooks,Hospitality,30720,0.45,0.55,0.25,0.75,0.65,0.85,Prepare food
+35-3011,Bartenders,Hospitality,26350,0.50,0.55,0.20,0.70,0.85,0.75,Mix and serve drinks
+35-3031,Waiters and Waitresses,Hospitality,24140,0.55,0.60,0.15,0.60,0.90,0.80,Serve food and beverages
+37-1011,First-Line Housekeeping Supervisors,Hospitality,40140,0.45,0.55,0.35,0.40,0.75,0.75,Supervise cleaning staff
+37-2011,Janitors and Cleaners,Services,29080,0.50,0.60,0.20,0.30,0.50,0.90,Clean buildings
+37-2012,Maids and Housekeepers,Services,28010,0.50,0.60,0.20,0.30,0.60,0.90,Clean homes and hotels
+39-1011,Gaming Supervisors,Hospitality,53340,0.45,0.55,0.40,0.50,0.85,0.50,Oversee gaming operations
+39-3031,Ushers and Ticket Takers,Entertainment,25110,0.70,0.70,0.40,0.30,0.70,0.60,Assist patrons at events
+39-5012,Hairdressers and Cosmetologists,Personal Services,29680,0.30,0.45,0.25,0.85,0.90,0.80,Style hair and provide beauty services
+39-9011,Childcare Workers,Education,28520,0.25,0.40,0.20,0.70,0.95,0.75,Care for children
+39-9021,Personal Care Aides,Healthcare,28920,0.35,0.50,0.25,0.55,0.95,0.80,Assist with daily activities
+41-1011,First-Line Retail Supervisors,Retail,43680,0.55,0.65,0.50,0.45,0.75,0.50,Supervise retail workers
+41-2011,Cashiers,Retail,25710,0.80,0.75,0.60,0.20,0.60,0.50,Process transactions
+41-2031,Retail Salespersons,Retail,28050,0.65,0.70,0.50,0.50,0.80,0.60,Sell merchandise
+41-3011,Advertising Sales Agents,Sales,54940,0.50,0.65,0.85,0.60,0.85,0.05,Sell advertising space
+41-3021,Insurance Sales Agents,Sales,52180,0.55,0.70,0.85,0.45,0.85,0.05,Sell insurance policies
+41-3031,Securities Sales Agents,Finance,67480,0.50,0.70,0.90,0.55,0.85,0.05,Sell securities
+41-4011,Sales Representatives,Sales,63420,0.45,0.65,0.80,0.60,0.85,0.15,Sell goods and services
+43-1011,First-Line Office Supervisors,Administrative,60410,0.60,0.70,0.85,0.40,0.70,0.10,Supervise office workers
+43-3011,Bill and Account Collectors,Finance,39000,0.75,0.80,0.95,0.25,0.60,0.05,Collect payments
+43-3021,Billing Clerks,Administrative,41350,0.80,0.85,0.95,0.20,0.45,0.05,Calculate and record billing
+43-3031,Bookkeeping Clerks,Finance,42410,0.85,0.85,0.98,0.20,0.40,0.02,Record financial transactions
+43-4051,Customer Service Representatives,Services,36920,0.70,0.80,0.90,0.35,0.75,0.05,Interact with customers
+43-5061,Production Clerks,Manufacturing,37520,0.75,0.75,0.85,0.25,0.50,0.30,Coordinate production
+43-6011,Executive Secretaries,Administrative,63110,0.65,0.75,0.90,0.45,0.70,0.05,Support executives
+43-6014,Secretaries,Administrative,40990,0.70,0.75,0.90,0.35,0.65,0.05,Perform administrative tasks
+43-9061,Office Clerks,Administrative,36930,0.75,0.80,0.95,0.25,0.50,0.05,Perform general office tasks
+45-1011,First-Line Agricultural Supervisors,Agriculture,48600,0.35,0.50,0.40,0.55,0.75,0.75,Supervise farm workers
+45-2092,Farmworkers,Agriculture,29680,0.40,0.55,0.20,0.45,0.50,0.90,Perform manual farm labor
+47-1011,Construction Supervisors,Construction,68430,0.35,0.50,0.35,0.60,0.80,0.70,Oversee construction projects
+47-2031,Carpenters,Construction,48260,0.40,0.55,0.30,0.75,0.65,0.85,Construct and repair structures
+47-2061,Construction Laborers,Construction,38890,0.45,0.60,0.25,0.40,0.60,0.90,Perform physical construction tasks
+47-2111,Electricians,Construction,60040,0.40,0.60,0.35,0.70,0.65,0.80,Install electrical systems
+47-2141,Painters,Construction,44640,0.50,0.60,0.35,0.75,0.55,0.85,Apply paint to surfaces
+47-2152,Plumbers,Construction,59880,0.35,0.55,0.30,0.65,0.70,0.85,Install and repair pipes
+49-1011,First-Line Mechanics Supervisors,Maintenance,69960,0.40,0.60,0.45,0.60,0.75,0.70,Supervise mechanics
+49-2011,Computer Repair Technicians,Technology,42000,0.60,0.75,0.75,0.50,0.60,0.50,Repair computers
+49-2022,Telecommunications Equipment Installers,Technology,61750,0.55,0.70,0.50,0.55,0.60,0.70,Install communication equipment
+49-3023,Automotive Service Technicians,Automotive,46880,0.50,0.65,0.30,0.65,0.65,0.85,Repair vehicles
+49-9021,HVAC Mechanics,Construction,51420,0.40,0.60,0.35,0.65,0.70,0.80,Install and repair climate systems
+49-9041,Industrial Machinery Mechanics,Manufacturing,57350,0.45,0.65,0.40,0.70,0.65,0.80,Maintain industrial equipment
+49-9071,Maintenance Workers,Maintenance,42350,0.50,0.65,0.35,0.60,0.65,0.85,Perform general maintenance
+51-1011,First-Line Production Supervisors,Manufacturing,62900,0.50,0.65,0.50,0.55,0.75,0.60,Oversee production workers
+51-2092,Team Assemblers,Manufacturing,34190,0.70,0.75,0.45,0.30,0.55,0.80,Assemble products
+51-4041,Machinists,Manufacturing,47300,0.60,0.70,0.50,0.65,0.55,0.75,Operate machine tools
+51-4121,Welders,Manufacturing,45190,0.55,0.70,0.40,0.70,0.60,0.85,Join metal parts
+51-6031,Sewing Machine Operators,Manufacturing,29270,0.75,0.75,0.40,0.40,0.45,0.85,Operate sewing machines
+51-7011,Cabinetmakers,Manufacturing,37490,0.50,0.65,0.40,0.80,0.60,0.85,Build wooden cabinets
+51-9061,Inspectors and Testers,Manufacturing,42620,0.70,0.75,0.60,0.35,0.50,0.60,Examine products for quality
+51-9111,Packaging Machine Operators,Manufacturing,35970,0.75,0.80,0.50,0.25,0.45,0.80,Operate packaging equipment
+53-1031,Driver Supervisors,Transportation,63110,0.50,0.65,0.45,0.50,0.80,0.60,Coordinate drivers
+53-1041,Traffic Technicians,Transportation,48920,0.60,0.70,0.70,0.45,0.60,0.40,Monitor traffic systems
+53-3032,Heavy Truck Drivers,Transportation,48710,0.65,0.75,0.35,0.40,0.50,0.80,Drive large trucks
+53-3033,Light Truck Drivers,Transportation,37050,0.70,0.75,0.30,0.35,0.55,0.85,Drive delivery trucks
+53-6051,Transportation Attendants,Transportation,29210,0.65,0.70,0.40,0.40,0.75,0.70,Assist passengers
+11-2011,Advertising Managers,Marketing,127830,0.30,0.70,0.85,0.75,0.75,0.05,Plan advertising campaigns
+11-2022,Sales Managers,Management,132290,0.30,0.60,0.75,0.60,0.85,0.10,Direct sales teams
+11-3011,Administrative Services Managers,Management,99290,0.45,0.65,0.80,0.50,0.75,0.10,Coordinate support services
+11-3021,Computer and IS Managers,Technology,159010,0.35,0.75,0.90,0.70,0.70,0.05,Plan IT strategies
+11-3051,Industrial Production Managers,Manufacturing,108790,0.40,0.65,0.60,0.60,0.75,0.30,Oversee production
+11-9013,Farmers and Ranchers,Agriculture,73060,0.30,0.50,0.35,0.65,0.70,0.80,Operate farms
+11-9021,Construction Managers,Construction,98890,0.30,0.55,0.55,0.65,0.80,0.40,Plan construction projects
+11-9041,Architectural Managers,Construction,149530,0.25,0.60,0.70,0.80,0.75,0.15,Oversee architectural projects
+11-9051,Food Service Managers,Hospitality,59440,0.40,0.55,0.45,0.60,0.85,0.50,Direct food operations
+11-9081,Lodging Managers,Hospitality,60670,0.40,0.60,0.60,0.55,0.85,0.35,Manage hotels
+11-9151,Social and Community Managers,Nonprofit,74240,0.25,0.50,0.70,0.70,0.90,0.20,Coordinate community programs
+13-1041,Compliance Officers,Business,71100,0.50,0.70,0.85,0.45,0.70,0.05,Ensure regulatory compliance
+13-1071,HR Specialists,Business,63490,0.55,0.70,0.90,0.50,0.80,0.05,Recruit and support employees
+13-1081,Logisticians,Business,77520,0.60,0.75,0.85,0.50,0.65,0.10,Manage supply chains
+13-1151,Training Specialists,Business,62700,0.45,0.65,0.85,0.65,0.85,0.10,Develop training programs
+15-1231,Computer Network Support,Technology,68050,0.60,0.80,0.90,0.50,0.60,0.05,Troubleshoot networks
+15-1232,Computer User Support,Technology,55510,0.65,0.80,0.90,0.45,0.70,0.05,Assist computer users
+15-1241,Computer Network Architects,Technology,120520,0.45,0.75,0.95,0.70,0.55,0.05,Design networks
+15-1243,Database Administrators,Technology,96710,0.60,0.80,0.95,0.55,0.50,0.05,Manage databases
+15-2021,Mathematicians,Science,112110,0.35,0.70,0.90,0.80,0.50,0.05,Develop mathematical theories
+15-2041,Statisticians,Science,95570,0.50,0.75,0.95,0.65,0.50,0.05,Apply statistical methods
+17-1011,Architects,Architecture,82840,0.40,0.65,0.75,0.90,0.70,0.20,Design buildings
+17-1012,Landscape Architects,Architecture,70630,0.40,0.60,0.70,0.90,0.75,0.35,Design outdoor spaces
+17-2081,Environmental Engineers,Engineering,96820,0.45,0.65,0.75,0.65,0.65,0.25,Develop environmental solutions
+17-3011,Architectural Drafters,Architecture,58270,0.70,0.80,0.90,0.65,0.45,0.05,Prepare technical drawings
+19-1029,Biological Scientists,Science,86150,0.35,0.60,0.75,0.75,0.65,0.35,Study living organisms
+19-2012,Physicists,Science,152430,0.30,0.65,0.85,0.80,0.60,0.20,Research physical phenomena
+19-2031,Chemists,Science,79430,0.40,0.65,0.75,0.75,0.60,0.35,Study chemical substances
+19-2041,Environmental Scientists,Science,76530,0.40,0.65,0.75,0.70,0.65,0.30,Protect the environment
+19-3022,Survey Researchers,Research,59740,0.60,0.75,0.90,0.55,0.60,0.05,Design and conduct surveys
+19-3032,Industrial-Organizational Psychologists,Business,113320,0.35,0.60,0.80,0.70,0.80,0.10,Apply psychology to workplace
+19-3091,Anthropologists,Science,64000,0.30,0.55,0.80,0.80,0.70,0.25,Study human cultures
+19-3094,Political Scientists,Science,122510,0.40,0.65,0.85,0.75,0.65,0.10,Study political systems
+19-4061,Social Science Research Assistants,Research,51370,0.65,0.75,0.90,0.45,0.55,0.10,Support research projects
+21-1013,Marriage and Family Therapists,Healthcare,56570,0.15,0.35,0.60,0.70,0.95,0.15,Provide relationship counseling
